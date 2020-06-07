@@ -1,689 +1,285 @@
 [
     {
         "Id": 1,
-        "Subject": "Data Type",
-        "Difficulty": 0,
-        "Question": "Which of these collections defines a LIST?",
+        "Subject": "OS",
+        "Difficulty": 1,
+        "Question": "페이지 교체 알고리즘에 따른 페이지 폴트 방식의 설명 중 올바르지 않은 것은",
         "Code": "",
         "Answers": [
-            "(\"apple\", \"banana\", \"cherry\")",
-            "{\"apple\", \"banana\", \"cherry\"}",
-            "{\"name\": \"apple\", \"color\": \"green\"}",
-            "[\"apple\", \"banana\", \"cherry\"]"
+            "FIFO : 메모리가 할당된 순서대로 페이지를 교체",
+            "LFU : 사용 빈도가 가장 많은 페이지를 교체",
+            "NUR : 최근에 사용하지 않은 페이지를 교체",
+            "LRU : 가장 오랫동안 참조되지 않은 페이지를 교체",
+            "없음"
         ],
-        "Reference": "https://www.w3schools.com/quiztest/"
+        "Reference": "https://github.com/gyoogle/tech-interview-for-developer"
     },
     {
         "Id": 2,
-        "Subject": "Data Type",
+        "Subject": "DB",
         "Difficulty": 0,
-        "Question": "Which of these collections defines a TUPLE?",
+        "Question": "DBMS의 Index에 대한 설명 중 틀린 것은",
         "Code": "",
         "Answers": [
-            "(\"apple\", \"banana\", \"cherry\")",
-            "{\"apple\", \"banana\", \"cherry\"}",
-            "{\"name\": \"apple\", \"color\": \"green\"}",
-            "[\"apple\", \"banana\", \"cherry\"]"
+            "항상 정렬된 상태를 유지하기 때문에 원하는 값을 탐색하는데 빠르다",
+            "새로운 값을 추가하거나 삭제, 수정 하는데 빠르다",
+            "없음"
         ],
-        "Reference": "https://www.w3schools.com/quiztest/"
+        "Reference": "https://github.com/JaeYeopHan/Interview_Question_for_Beginner"
     },
     {
         "Id": 3,
-        "Subject": "Data Type",
+        "Subject": "DB",
         "Difficulty": 0,
-        "Question": "Which of these collections defines a SET?",
+        "Question": "트랜잭션이 만족해야하는 특성 중 올바르지 않은 것은?",
         "Code": "",
         "Answers": [
-            "(\"apple\", \"banana\", \"cherry\")",
-            "{\"apple\", \"banana\", \"cherry\"}",
-            "{\"name\": \"apple\", \"color\": \"green\"}",
-            "[\"apple\", \"banana\", \"cherry\"]"
+            "원자성(Atomicity)",
+            "일관성(Consistency)",
+            "고립성(Isolation)",
+            "지속성(Durability)",
+            "없음"
         ],
-        "Reference": "https://www.w3schools.com/quiztest/"
+        "Reference": "https://github.com/JaeYeopHan/Interview_Question_for_Beginner"
     },
     {
         "Id": 4,
-        "Subject": "Data Type",
-        "Difficulty": 0,
-        "Question": "Which of these collections defines a DICTIONARY?",
+        "Subject": "Algorithm",
+        "Difficulty": 1,
+        "Question": "Time Complexity가 같은 것끼리 짝지어진 것은?",
         "Code": "",
         "Answers": [
-            "(\"apple\", \"banana\", \"cherry\")",
-            "{\"apple\", \"banana\", \"cherry\"}",
-            "{\"name\": \"apple\", \"color\": \"green\"}",
-            "[\"apple\", \"banana\", \"cherry\"]"
+            "Bubble Sort & Merge Sort",
+            "Bubble Sort & Heap Sort",
+            "Bubble Sort & Selection Sort",
+            "없음"
         ],
-        "Reference": "https://www.w3schools.com/quiztest/"
+        "Reference": "https://github.com/JaeYeopHan/Interview_Question_for_Beginner"
     },
     {
         "Id": 5,
-        "Subject": "Data Type",
-        "Difficulty": 1,
-        "Question": "In Python 3, the maximum value for an integer is 2^63 - 1",
+        "Subject": "DataStructure",
+        "Difficulty": 0,
+        "Question": "Stack을 설명하는 것으로 올바른 것은?",
         "Code": "",
         "Answers": [
-            "True",
-            "False"
+            "Last In First Out",
+            "First In First Out",
+            "없음"
         ],
-        "Reference": "https://realpython.com/"
+        "Reference": "https://github.com/JaeYeopHan/Interview_Question_for_Beginner"
     },
     {
         "Id": 6,
-        "Subject": "Comment",
-        "Difficulty": 0,
-        "Question": "Which of the following statements is true?",
+        "Subject": "Development common sense",
+        "Difficulty": 1,
+        "Question": "객체 지향적 설계 원칙 중 올바르지 않은 것은?",
         "Code": "",
         "Answers": [
-            "Comments are for programmers for better understanding of the program.",
-            "Python Interpreter ignores comment.",
-            "All of the above"
+            "클래스는 단 하나의 책임을 가져야 하며 클래스를 변경하는 이유는 단 하나의 이유이어야 한다.",
+            "확장에는 닫혀 있어야 하고 변경에는 열려 있어야 한다.",
+            "상위 타입의 객체를 하위 타입의 객체로 치환해도 상위 타입을 사용하는 프로그램은 정상적으로 동작해야 한다.",
+            "인터페이스는 그 인터페이스를 사용하는 클라이언트를 기준으로 분리해야 한다.",
+            "고수준 모듈은 저수준 모듈의 구현에 의존해서는 안된다."
+            
         ],
-        "Reference": "https://www.programiz.com/python-programming/quiz"
+        "Reference": "https://github.com/JaeYeopHan/Interview_Question_for_Beginner"
     },
     {
         "Id": 7,
-        "Subject": "Variable",
-        "Difficulty": 1,
-        "Question": "Which of the following is correct?",
-        "Code": "",
+        "Subject": "Network",
+        "Difficulty": 0,
+        "Question": "다음 빈칸에 들어갈 말은",
+        "Code": " [  ] 방식은 요청하는 데이터가 HTTP Request Message의 Header 부분의 url 에 담겨서 전송된다. 때문에 url 상에 ? 뒤에 데이터가 붙어 request 를 보내게 되는 것이다. 이러한 방식은 url 이라는 공간에 담겨가기 때문에 전송할 수 있는 데이터의 크기가 제한적이다. ",
         "Answers": [
-            "Variable name can start with an underscore.",
-            "Variable name can start with a digit.",
-            "Keywords cannot be used as a variable name.",
-            "Variable name can have symbols like: @, #, $ etc."
+            "GET",
+            "POST",
+            "없음",
         ],
-        "Reference": "https://www.programiz.com/python-programming/quiz"
+        "Reference": "https://github.com/JaeYeopHan/Interview_Question_for_Beginner"
     },
     {
         "Id": 8,
-        "Subject": "Data Type",
-        "Difficulty": 1,
-        "Question": "Which of the following is type n ? ",
-        "Code": "n = '5'",
+        "Subject": "OS",
+        "Difficulty": 0,
+        "Question": "Process Control Block에 저장되는 정보 중 올바르지 않은 것은?",
+        "Code": "",
         "Answers": [
-            "Integer",
-            "string",
-            "tuple",
-            "operatore"
+            "프로세스 식별번호",
+            "프로세스 상태",
+            "프로세스의 우선순위, 스케줄 큐에 대한 포인터 등",
+            "없음"
         ],
-        "Reference": "https://www.programiz.com/python-programming/quiz"
+        "Reference": "https://github.com/JaeYeopHan/Interview_Question_for_Beginner"
     },
     {
         "Id": 9,
-        "Subject": "Syntax",
-        "Difficulty": 2,
-        "Question": "What is the output of the following code? ",
-        "Code": "print(1, 2, 3, 4, sep='*')",
+        "Subject": "Web",
+        "Difficulty": 0,
+        "Question": "HTTP status의 코드, 이름, 의미가 올바르게 짝지어진 것은?",
+        "Code": "",
         "Answers": [
-            "1 2 3 4",
-            "1234",
-            "1*2*3*4",
-            "24"
+            "200, Create, 생성 성공(POST)",
+            "200, OK, 생성 성공(POST)",
+            "201, Create, 생성 성공(POST)",
+            "201, OK, 생성 성공(POST)",
+            "없음"
         ],
-        "Reference": "https://www.programiz.com/python-programming/quiz"
+        "Reference": "https://github.com/gyoogle/tech-interview-for-developer"
     },
     {
         "Id": 10,
-        "Subject": "Syntax",
+        "Subject": "Web",
         "Difficulty": 0,
-        "Question": "What is used to take input from the user in Python?",
+        "Question": "Cookie와 Session의 설명 중 올바르지 못한 것은?",
         "Code": "",
         "Answers": [
-            "cin",
-            "scanf",
-            "input",
-            "<>"
+            "Cookie의 저장위치는 Client다",
+            "Cookie의 개수 제한은 없다",
+            "Session의 만료시점은 클라이언트가 로그아웃하거나, 설정 시간동안 반응이 없을 경우이다"
+            "없음"
         ],
-        "Reference": "https://www.programiz.com/python-programming/quiz"
+        "Reference": "https://github.com/gyoogle/tech-interview-for-developer"
     },
     {
         "Id": 11,
-        "Subject": "Loop",
-        "Difficulty": 2,
-        "Question": "Can we use the “else” clause for loops?",
+        "Subject": "Network",
+        "Difficulty": 1,
+        "Question": "3 way handshake 순서 설명 중 올바르지 못한 것은?",
         "Code": "",
         "Answers": [
-            "No",
-            "Yes"
+            "1. 클라이언트가 서버에게 SYN 패킷을 보냄 (sequence : x)",
+            "2. 서버가 SYN(x)을 받고, 클라이언트로 받았다는 신호인 ACK와 SYN 패킷을 보냄 (sequence : y, ACK : x + 1)",
+            "3. 클라이언트는 서버의 응답은 ACK(x+1)와 SYN(y) 패킷을 받고, ACK(y+1)를 서버로 보냄",
+            "없음"
         ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/"
+        "Reference": "https://github.com/gyoogle/tech-interview-for-developer"
     },
     {
         "Id": 12,
-        "Subject": "Operator",
-        "Difficulty": 1,
-        "Question": "Which operator has higher precedence in the following list",
+        "Subject": "Language",
+        "Difficulty": 0,
+        "Question": "JAVA 메모리 영역 설명 중 올바르게 짝지어진 것은?",
         "Code": "",
         "Answers": [
-            "% Modulus",
-            "& BitWise AND",
-            "**, Exponent",
-            "> Comparison"
+            "스택 : 바이트 코드, 전역 변수, static 변수",
+            "메소드 : 매개 변수, 지역 변수 (사용 끝나면 바로 소멸, 컴파일 시에 메모리 할당)",
+            "힙 : new로 생성된 객체(c에서는 malloc()). 호출이 끝나도 사라지지 않고 프로그램 실행 시 동적 할당",
+            "없음"
         ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/"
+        "Reference": "https://github.com/gyoogle/tech-interview-for-developer"
     },
     {
         "Id": 13,
-        "Subject": "Syntax",
-        "Difficulty": 2,
-        "Question": "What is the output of the following",
-        "Code": "x = 36 / 4 * (3 + 2) * 4 + 2\nprint(x)",
+        "Subject": "OS",
+        "Difficulty": 0,
+        "Question": "교착상태 4가지 조건 중 올바르지 못한 것은?",
+        "Code": "",
         "Answers": [
-            "182.0",
-            "37.0",
-            "117.0",
-            "The Program executed with errors"
+            "상호배제 : 프로세스들이 필요로 하는 자원에 대해 배타적 통제권을 요구함",
+            "점유대기 : 프로세스가 할당된 자원을 가진 상태에서 다른 자원 기다림",
+            "비선점 : 프로세스가 어떤 자원의 사용을 끝날 때까지 그 자원을 뺏을 수 없음",
+            "순환대기 : 각 프로세스는 순환적으로 다음 프로세스가 요구하는 자원을 갖고 있음",
+            "없음"
         ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/"
+        "Reference": "https://github.com/gyoogle/tech-interview-for-developer"
     },
     {
         "Id": 14,
-        "Subject": "Function Syntax",
-        "Difficulty": 2,
-        "Question": "For the following code, which of the following statements is true?",
-        "Code": "def printHello():\n\tprint(\"Hello\")\na = printHello()",
+        "Subject": "Data Structure",
+        "Difficulty": 0,
+        "Question": "해시테이블에서 중복된 값 충돌에 대한 해결 방안 중 올바르지 않은 것은",
+        "Code": "",
         "Answers": [
-            "printHello() is a function and a is a variable. None of them are objects.",
-            "Both printHello() and a refer to the same object.",
-            "printHello() and a refer to different objects.",
-            "Syntax error! You cannot assign function to a variable in Python."
+            "선형 조사법: 충돌이 일어난 항목을 해시 테이블의 다른 위치에 저장",
+            "이차 조사법: 선형 조사법에서 발생하는 집적화 문제를 완화시켜 줌",
+            "이중 해시법: 충돌로 인해 비어있는 버킷을 찾을 때 추가적인 해시 함수 h'()를 사용하는 방식",
+            "체이닝: 각 버킷을 고정된 개수의 슬롯 대신, 유동적 크기를 갖는 연결리스트로 구성하여 충돌 뿐만 아니라 오버플로우 문제도 해결 가능",
+            "없음"
+            
         ],
-        "Reference": "https://www.programiz.com/"
+        "Reference": "https://github.com/gyoogle/tech-interview-for-developer"
     },
     {
         "Id": 15,
-        "Subject": "Syntax",
-        "Difficulty": 2,
-        "Question": "What is the output of the following program?",
-        "Code": "def outerFunction():\n\tglobal a\n\ta = 20\n\tdef innerFunction():\n\t\tglobal a\n\t\ta = 30\n\t\tprint('a =', a)  \na = 10\nouterFunction()\nprint('a =', a)",
-        "Answers": [
-            "a = 10 a = 10",
-            "a = 10",
-            "a = 20",
-            "a = 30"
-        ],
-        "Reference": "https://www.programiz.com/"
-    },
-    {
-        "Id": 16,
-        "Subject": "Class",
-        "Difficulty": 1,
-        "Question": "Which of the following statements is true?",
-        "Code": "",
-        "Answers": [
-            "A class is blueprint for the object.",
-            "You can only make a single object from the given class.",
-            "Both statements are true.",
-            "Neither statement is true."
-        ],
-        "Reference": "https://www.programiz.com/"
-    },
-    {
-        "Id": 17,
-        "Subject": "Class",
-        "Difficulty": 1,
-        "Question": "What is the output of the following code?",
-        "Code": "class Foo:\n\tdef printLine(self, line='Python'):\n\t\tprint(line)\n\no1 = Foo()\no1.printLine('Java')",
-        "Answers": [
-            "Python",
-            "line",
-            "Java",
-            "Java\n\tPython"
-        ],
-        "Reference": "https://www.programiz.com/"
-    },
-    {
-        "Id": 18,
-        "Subject": "Syntax",
-        "Difficulty": 2,
-        "Question": "What does the '__init__()' function do in Python?",
-        "Code": "",
-        "Answers": [
-            "Initializes the class for use.",
-            "This function is called when a new object is instantiated.",
-            "Initializes all the data attributes to zero when called.",
-            "None of the above."
-        ],
-        "Reference": "https://www.programiz.com/"
-    },
-    {
-        "Id": 19,
-        "Subject": "Syntax",
-        "Difficulty": 2,
-        "Question": "What is the output of the following code?",
-        "Code": "class Point:\n\tdef __init__(self, x = 0, y = 0):\n\t\tself.x = x+1\n\t\tself.y = y+1\n\np1 = Point()\nprint(p1.x, p1.y)",
-        "Answers": [
-            "0 0",
-            "1 1",
-            "None None",
-            "x y"
-        ],
-        "Reference": "https://www.programiz.com/"
-    },
-    {
-        "Id": 20,
-        "Subject": "Class",
-        "Difficulty": 1,
-        "Question": "If a class is derived from two different classes, it’s called ______",
-        "Code": "",
-        "Answers": [
-            "Multilevel Inheritance",
-            "Multiple Inheritance",
-            "Hierarchical Inheritance",
-            "Python Inheritance"
-        ],
-        "Reference": "https://www.programiz.com/"
-    },
-    {
-        "Id": 21,
-        "Subject": "Theory",
-        "Difficulty": 2,
-        "Question": "Which of the following statements is true?",
-        "Code": "",
-        "Answers": [
-            "In Python, same operator may behave differently depending upon operands.",
-            "You can change the way operators behave in Python.",
-            "Special method __add__() is called when + operator is used.",
-            "All of the above."
-        ],
-        "Reference": "https://www.programiz.com/"
-    },
-    {
-        "Id": 22,
-        "Subject": "Function",
-        "Difficulty": 1,
-        "Question": "What is the output of the following code",
-        "Code": "salary = 8000\n\ndef printSalary():\n\tsalary = 12000\n\tprint(\"Salary:\", salary)\n\nprintSalary();\nprint(\"Salary:\", salary)",
-        "Answers": [
-            "Salary: 12000 Salary: 8000",
-            "Salary: 8000 Salary: 12000",
-            "The program failed with errors\n"
-        ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/",
-        "Explain": "If you define a variable with the same name inside the scope of function as well at the global scope, then it will print the value given inside the function only and not the global value."
-    },
-    {
-        "Id": 23,
-        "Subject": "Syntax",
-        "Difficulty": 1,
-        "Question": "What is the output of the following code?",
-        "Code": "for i in range(10, 15, 1):\n\tprint( i, end=', ')",
-        "Answers": [
-            "10, 11, 12, 13, 14,",
-            "10, 11, 12, 13, 14, 15,"
-        ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/",
-        "Explain": "Remember, the range doesn’t include a stop number in the output"
-    },
-    {
-        "Id": 24,
-        "Subject": "Syntax",
-        "Difficulty": 2,
-        "Question": "What is the Output of the following code?",
-        "Code": "for x in range(0.5, 5.5, 0.5):\n\tprint(x)",
-        "Answers": [
-            "[0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5]",
-            "[0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]",
-            "The Program executed with errors"
-        ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/",
-        "Explain": "We cannot use the float numbers in range() function. Please refer to the following articles"
-    },
-    {
-        "Id": 25,
-        "Subject": "Syntax",
-        "Difficulty": 1,
-        "Question": "What is the output of the following code?",
-        "Code": "sampleList = [\"Jon\", \"Kelly\", \"Jessa\"]\nsampleList.append(2, \"Scott\")\nprint(sampleList)",
-        "Answers": [
-            "The program executed with errors",
-            "[‘Jon’, ‘Kelly’, ‘Scott’, ‘Jessa’]",
-            "[‘Jon’, ‘Kelly’, ‘Jessa’, ‘Scott’]",
-            "[‘Jon’, ‘Scott’, ‘Kelly’, ‘Jessa’]"
-        ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/",
-        "Explain": "The append() method appends an item to the end of the list. SO we cannot pass the index number to it."
-    },
-    {
-        "Id": 26,
-        "Subject": "Syntax",
+        "Subject": "Algorithm",
         "Difficulty": 0,
-        "Question": "What is the output of the following code?",
-        "Code": "p, q, r = 10, 20 ,30\nprint(p, q, r)",
+        "Question": "아래 코드에 알맞는 Algorithm은?",
+        "Code": " 
+        void bubbleSort(int[] arr) {
+            int temp = 0;
+            for(int i = 0; i < arr.length; i++) {
+                for(int j= 1 ; j < arr.length-i; j++) {
+                    if(arr[j-1] > arr[j]) {
+                        temp = arr[j-1];
+                        arr[j-1] = arr[j];
+                        arr[j] = temp;
+                    }
+                }
+            }
+            System.out.println(Arrays.toString(arr));
+        }",
         "Answers": [
-            "10 20",
-            "10 20 30",
-            "Error: invalid syntax"
+            "Insertion Sort",
+            "Quick Sort",
+            "Bubble Sort",
+            "Merge Sort",
         ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/",
-        "Explain": "In Python, We can do simultaneous assignments on more than one variable."
+        "Reference": "https://github.com/gyoogle/tech-interview-for-developer"
     },
-    {
-        "Id": 27,
-        "Subject": "Syntax",
-        "Difficulty": 2,
-        "Question": "What is the output of the following code?",
-        "Code": "var = \"James\" * 2  * 3\nprint(var)",
-        "Answers": [
-            "JamesJamesJamesJamesJamesJames",
-            "JamesJamesJamesJamesJames",
-            "Error: invalid syntax"
-        ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/",
-        "Explain": "We can use * operator to repeat the string n number of times. Here in the above question, First, we repeated string two times, and again we repeated the output string three times."
-    },
-    {
-        "Id": 28,
-        "Subject": "Syntax",
-        "Difficulty": 0,
-        "Question": "What is the output of the following code?",
-        "Code": "listOne = [20, 40, 60, 80]\nlistTwo = [20, 40, 60, 80]\nprint(listOne == listTwo)\nprint(listOne is listTwo)",
-        "Answers": [
-            "True\nTrue",
-            "True\nFalse",
-            "False\nTrue",
-            "False\nFalse"
-        ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/",
-        "Explain": "Equal To operator == used to compare the values of two objects while The is operator compares the identity of two objects."
-    },
-    {
-        "Id": 29,
-        "Subject": "String",
-        "Difficulty": 1,
-        "Question": "A string is immutable in Python? Every time when we modify the string, Python Always create a new String and assign a new string to that variable.",
-        "Code": "",
-        "Answers": [
-            "True",
-            "False"
-        ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/",
-        "Explain": " Strings are immutable in Python. You cannot modify string once created. If you change a string, Python builds a new string with the updated value and assigns it to the variable."
-    },
-    {
-        "Id": 30,
-        "Subject": "Syntax",
-        "Difficulty": 1,
-        "Question": "What is the output of the following code?",
-        "Code": "var= \"James Bond\"\nprint(var[2::-1])",
-        "Answers": [
-            "Jam",
-            "dno",
-            "maJ",
-            "dnoB semaJ"
-        ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/"
-    },
-    {
-        "Id": 31,
-        "Subject": "Operator",
-        "Difficulty": 1,
-        "Question": "The ‘in’ operator is used to check if a value exists within an iterable object container such as a list. Evaluates to true if it finds a variable in the specified sequence and false otherwise.",
-        "Code": "",
-        "Answers": [
-            "True",
-            "False"
-        ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/"
-    },
-    {
-        "Id": 32,
-        "Subject": "Syntax",
-        "Difficulty": 0,
-        "Question": "What is the output of the following code?",
-        "Code": "sampleSet = {\"Jodi\", \"Eric\", \"Garry\"}\nsampleSet.add(1, \"Vicki\")\nprint(sampleSet)",
-        "Answers": [
-            "{‘Vicki’, ‘Jodi’, ‘Garry’, ‘Eric’}",
-            "{‘Jodi’, ‘Vicki’, ‘Garry’, ‘Eric’}",
-            "The program executed with error"
-        ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/",
-        "Explain": "The set is an unordered data structure. So you cannot access/add/remove its elements by index number."
-    },
-    {
-        "Id": 33,
-        "Subject": "Operator",
-        "Difficulty": 0,
-        "Question": "What is the output of the following code",
-        "Code": "x = 6\ny = 2\nprint(x ** y, x // y)\n",
-        "Answers": [
-            "66 0",
-            "36 0",
-            "66 3",
-            "36 3"
-        ],
-        "Reference": "https://pynative.com/python-operators-and-expression-quiz/"
-    },
-    {
-        "Id": 34,
-        "Subject": "Syntax",
-        "Difficulty": 0,
-        "Question": "What is the output of the following code?",
-        "Code": "valueOne = 5 ** 2\nvalueTwo = 5 ** 3\n\nprint(valueOne)\nprint(valueTwo)",
-        "Answers": [
-            "10\n15",
-            "25\n125",
-            "Error: invalid syntax"
-        ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/",
-        "Explain": "Using two multiplication symbols, we can make a power relationship in Python. We call ** operator as an exponent operator. That is, in the expression 5 ** 3, 5 is being raised to the 3rd power."
-    },
-    {
-        "Id": 35,
-        "Subject": "Syntax",
-        "Difficulty": 0,
-        "Question": "What is the output of the following code?",
-        "Code": "str = \"pynative\"\nprint (str[1:3])",
-        "Answers": [
-            "py",
-            "yn",
-            "pyn",
-            "yna"
-        ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/",
-        "Explain": "Remember, the index always starts at 0. Therefore, str [1 : 3] is “yn”"
-    },
-    {
-        "Id": 36,
-        "Subject": "Syntax",
-        "Difficulty": 0,
-        "Question": "What is the output of the following code?",
-        "Code": "def calculate (num1, num2=4):\n\tres = num1 * num2\n\tprint(res)\n\ncalculate(5, 6)",
-        "Answers": [
-            "20",
-            "The program executed with errors",
-            "30"
-        ],
-        "Reference": "https://pynative.com/basic-python-quiz-for-beginners/",
-        "Explain": "In Python, we can set default values for arguments. If the function is called without the argument, the default value is used."
-    },
-    {
-        "Id": 37,
-        "Subject": "Syntax",
-        "Difficulty": 0,
-        "Question": "What is a correct syntax to output \"Hello World\" in Python?",
-        "Code": "",
-        "Answers": [
-            "print(\"Hello World\")",
-            "p(\"Hello World\")",
-            "echo(\"Hello World\");",
-            "echo \"Hello World\""
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    },
-    {
-        "Id": 38,
-        "Subject": "Comment",
-        "Difficulty": 0,
-        "Question": "How do you insert COMMENTS in Python code?",
-        "Code": "",
-        "Answers": [
-            "/*This is a comment*/  ",
-            "#This is a comment   ",
-            "//This is a comment"
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    },
-    {
-        "Id": 39,
-        "Subject": "Variable Naming",
-        "Difficulty": 0,
-        "Question": "Which one is NOT a legal variable name?",
-        "Code": "",
-        "Answers": [
-            "my-var  ",
-            "_myvar",
-            "my_var",
-            "Myvar"
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    },
-    {
-        "Id": 40,
-        "Subject": "Syntax",
-        "Difficulty": 0,
-        "Question": "How do you create a variable with the numeric value 5?",
-        "Code": "",
-        "Answers": [
-            "x = int(5)",
-            "Both the other answers are correct",
-            "x = 5"
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    },
-    {
-        "Id": 41,
-        "Subject": "Source File",
-        "Difficulty": 0,
-        "Question": "What is the correct file extension for Python files?",
-        "Code": "",
-        "Answers": [
-            ".pyt",
-            ".pyth",
-            ".py",
-            ".pt"
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    },
-    {
-        "Id": 42,
-        "Subject": "Syntax",
-        "Difficulty": 0,
-        "Question": "How do you create a variable with the floating number 2.8?",
-        "Code": "",
-        "Answers": [
-            "Both the other answers are correct",
-            "x = float(2.8)",
-            "x = 2.8"
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    },
-    {
-        "Id": 43,
-        "Subject": "Syntax",
-        "Difficulty": 0,
-        "Question": "What is the correct syntax to output the type of a variable or object in Python?",
-        "Code": "",
-        "Answers": [
-            "print(type(x))",
-            "print(typeOf(x))",
-            "print(typeof(x))",
-            "print(typeof x)"
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    },
-    {
-        "Id": 44,
-        "Subject": "Function Syntax",
-        "Difficulty": 1,
-        "Question": "What is the correct way to create a function in Python?",
-        "Code": "",
-        "Answers": [
-            "create myFunction(): ",
-            "def myFunction(): ",
-            "function myfunction():"
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    },
-    {
-        "Id": 45,
-        "Subject": "Theory",
-        "Difficulty": 1,
-        "Question": "In Python, 'Hello', is the same as \"Hello\"",
-        "Code": "",
-        "Answers": [
-            "False",
-            "True"
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    },
-    {
-        "Id": 46,
-        "Subject": "Syntax",
-        "Difficulty": 0,
-        "Question": "What is a correct syntax to return the first character in a string?",
-        "Code": "",
-        "Answers": [
-            "x = sub(\"Hello\", 0, 1)",
-            "x = \"Hello\".sub(0, 1)",
-            "x = \"Hello\"[0]"
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    },
-    {
-        "Id": 47,
-        "Subject": "Syntax",
-        "Difficulty": 0,
-        "Question": "Which method can be used to remove any whitespace from both the beginning and the end of a string?",
-        "Code": "",
-        "Answers": [
-            "ptrim()",
-            "len()",
-            "strip()",
-            "trim()"
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    },
-    {
-        "Id": 48,
-        "Subject": "Syntax",
-        "Difficulty": 0,
-        "Question": "Which method can be used to return a string in upper case letters?",
-        "Code": "",
-        "Answers": [
-            "upper()",
-            "upperCase()",
-            "uppercase()",
-            "toUpperCase()"
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    },
-    {
-        "Id": 49,
-        "Subject": "Syntax",
-        "Difficulty": 0,
-        "Question": "Which method can be used to replace parts of a string?",
-        "Code": "",
-        "Answers": [
-            "switch()",
-            "replaceString()",
-            "repl()",
-            "replace()"
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    },
-    {
-        "Id": 50,
-        "Subject": "Operator",
-        "Difficulty": 0,
-        "Question": "Which operator is used to multiply numbers?",
-        "Code": "",
-        "Answers": [
-            "*",
-            "%",
-            "x",
-            "#"
-        ],
-        "Reference": "https://www.w3schools.com/quiztest/"
-    }
-]
+	{
+    "Id": 16,
+    "Subject": "Database",
+    "Difficulty": 1,
+    "Question": "다음 중 맞는 설명을 고르세요.",
+    "Code": "",
+    "Answers": [
+	"table의 각 column에 인덱스를 많이 걸면 걸수록 좋다."
+        "1:N 관계를 가지고 있는 users, languages 테이블이 있을 때, ORM을 사용하여 user가 사용하는 모든 languages를 찾으려고 한다. N+1 번의 query가 최선이다.",
+        "live로 서비스 중인 DB에서 테이블의 row의 수가 10M 이상인 테이블을 삭제하려고 할 때, 다른 테이블에서 해당 테이블에 대한 foreign key constraints가 존재한다. 삭제시에 CASCADE 옵션을 사용하면 안전하다.",
+        "consistent hashing으로 구현된 key-value data store의 N개의 node 중 한 개가 down 되었을 때, 1/N개의 item만 rebalancing 된다.",
+		],
+    "Reference": zzerjae's brain
+	},
+	{
+    "Id": 17,
+    "Subject": "Cloud",
+    "Difficulty": 1,
+    "Question": "다음 중 맞는 설명을 고르세요.",
+    "Code": "",
+    "Answers": [
+	"퍼블릭 클라우드를 사용할 때, 인프라 리소스는 가능한 적은 수의 가용 영역에 배포하는 것이 안전하다."
+        "load balancer, VPN, bastion host 중에서, 서비스에 대한 요청이 증가할 때 도입하는 것은 VPN이다.",
+        "퍼블릭 클라우드는 기본적으로 사용한 단위시간 만큼 요금을 지불하기 때문에 초기 도입 비용이 적거나 없다.",
+        "하나의 서버 인스턴스에 api server, database, storage를 구성하는 것이 분산하는 것보다 안전하다."
+		],
+    "Reference": zzerjae's brain
+	},
+	{
+    "Id": 18,
+    "Subject": "Queue",
+    "Difficulty": 1,
+    "Question": "다음 중 가장 성능이 좋은 message 전달 전략은 무엇일까요?",
+    "Code": "",
+    "Answers": [
+				"적어도 한번 (at least once)"
+        "최대 한번 (at most once)",
+        "정확히 한번 (exactly once)",
+		],
+    "Reference": zzerjae's brain
+	},
+	{
+    "Id": 19,
+    "Subject": "devops",
+    "Difficulty": 1,
+    "Question": "다음 중 적절한 설명을 고르세요.",
+    "Code": "",
+    "Answers": [
+				"terraform과 같은 Infrastructure as a code 툴은 API 자동화를 통해 명령형으로 인프라를 관리하는 것이 목적이다."
+        "ruby나 python과 같은 script 언어로 서버 프로그램을 개발하는 것이 Go와 같이 compile 언어를 사용했을 때보다 컨테이너를 사용한 배포 환경에 유리하다.",
+	      "docker를 사용한 개발이 각광받게 된 이유는 서버에 새로운 코드를 배포하거나, 문제가 있는 서버를 내려야 할 때 손 쉽게 기존의 컨테이너는 버리고 새로운 컨테이너를 배포할 수 있기 때문이다.",
+        "canary 배포 전략은 A/B 두 세트의 인프라를 준비하고, A에서 실제 서비스를 하다가 새로운 배포 시에 B 서버를 준비하여 B에서 서비스를 하는 것이다.",
+		],
+    "Reference": zzerjae's brain
+	}
+]    
