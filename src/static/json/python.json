@@ -205,7 +205,7 @@
         "Subject": "Algorithm",
         "Difficulty": 0,
         "Question": "아래 코드에 알맞는 Algorithm은?",
-        "Code": "void bubbleSort(int[] arr) {\n\tint temp = 0;\n\tfor(int i = 0; i < arr.length; i++) {\n\t\tfor(int j= 1 ; j < arr.length-i; j++) {\n\t\t\tif(arr[j-1] > arr[j]) {\n\t\t\t\ttemp = arr[j-1];\n\t\t\t\tarr[j-1] = arr[j];\n\t\t\t\tarr[j] = temp;\n\t\t\t}\n\t\t}\n\t}\n\tSystem.out.println(Arrays.toString(arr));\n}",
+        "Code": "void Sort(int[] arr) {\n\tint temp = 0;\n\tfor(int i = 0; i < arr.length; i++) {\n\t\tfor(int j= 1 ; j < arr.length-i; j++) {\n\t\t\tif(arr[j-1] > arr[j]) {\n\t\t\t\ttemp = arr[j-1];\n\t\t\t\tarr[j-1] = arr[j];\n\t\t\t\tarr[j] = temp;\n\t\t\t}\n\t\t}\n\t}\n\tSystem.out.println(Arrays.toString(arr));\n}",
         "Answers": [
             "Insertion Sort",
             "Quick Sort",
