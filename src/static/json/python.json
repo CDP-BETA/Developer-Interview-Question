@@ -136,7 +136,7 @@
         "Answers": [
             "Cookie의 저장위치는 Client다",
             "Cookie의 개수 제한은 없다",
-            "Session의 만료시점은 클라이언트가 로그아웃하거나, 설정 시간동안 반응이 없을 경우이다"
+            "Session의 만료시점은 클라이언트가 로그아웃하거나, 설정 시간동안 반응이 없을 경우이다",
             "없음"
         ],
         "Reference": "https://github.com/gyoogle/tech-interview-for-developer"
@@ -205,25 +205,12 @@
         "Subject": "Algorithm",
         "Difficulty": 0,
         "Question": "아래 코드에 알맞는 Algorithm은?",
-        "Code": " 
-        void bubbleSort(int[] arr) {
-            int temp = 0;
-            for(int i = 0; i < arr.length; i++) {
-                for(int j= 1 ; j < arr.length-i; j++) {
-                    if(arr[j-1] > arr[j]) {
-                        temp = arr[j-1];
-                        arr[j-1] = arr[j];
-                        arr[j] = temp;
-                    }
-                }
-            }
-            System.out.println(Arrays.toString(arr));
-        }",
+        "Code": "void bubbleSort(int[] arr) {\n\tint temp = 0;\n\tfor(int i = 0; i < arr.length; i++) {\n\t\tfor(int j= 1 ; j < arr.length-i; j++) {\n\t\t\tif(arr[j-1] > arr[j]) {\n\t\t\t\ttemp = arr[j-1];\n\t\t\t\tarr[j-1] = arr[j];\n\t\t\t\tarr[j] = temp;\n\t\t\t}\n\t\t}\n\t}\n\tSystem.out.println(Arrays.toString(arr));\n}",
         "Answers": [
             "Insertion Sort",
             "Quick Sort",
             "Bubble Sort",
-            "Merge Sort",
+            "Merge Sort"
         ],
         "Reference": "https://github.com/gyoogle/tech-interview-for-developer"
     },
