@@ -239,7 +239,7 @@
         "live로 서비스 중인 DB에서 테이블의 row의 수가 10M 이상인 테이블을 삭제하려고 할 때, 다른 테이블에서 해당 테이블에 대한 foreign key constraints가 존재한다. 삭제시에 CASCADE 옵션을 사용하면 안전하다.",
         "consistent hashing으로 구현된 key-value data store의 N개의 node 중 한 개가 down 되었을 때, 1/N개의 item만 rebalancing 된다.",
 		],
-    "Reference": zzerjae's brain
+    "Reference": "zzerjae's brain"
 	},
 	{
     "Id": 17,
@@ -253,7 +253,7 @@
         "퍼블릭 클라우드는 기본적으로 사용한 단위시간 만큼 요금을 지불하기 때문에 초기 도입 비용이 적거나 없다.",
         "하나의 서버 인스턴스에 api server, database, storage를 구성하는 것이 분산하는 것보다 안전하다."
 		],
-    "Reference": zzerjae's brain
+    "Reference": "zzerjae's brain"
 	},
 	{
     "Id": 18,
@@ -266,7 +266,7 @@
         "최대 한번 (at most once)",
         "정확히 한번 (exactly once)",
 		],
-    "Reference": zzerjae's brain
+    "Reference": "zzerjae's brain"
 	},
 	{
     "Id": 19,
@@ -280,6 +280,6 @@
 	      "docker를 사용한 개발이 각광받게 된 이유는 서버에 새로운 코드를 배포하거나, 문제가 있는 서버를 내려야 할 때 손 쉽게 기존의 컨테이너는 버리고 새로운 컨테이너를 배포할 수 있기 때문이다.",
         "canary 배포 전략은 A/B 두 세트의 인프라를 준비하고, A에서 실제 서비스를 하다가 새로운 배포 시에 B 서버를 준비하여 B에서 서비스를 하는 것이다.",
 		],
-    "Reference": zzerjae's brain
+    "Reference": "zzerjae's brain"
 	}
 ]    
