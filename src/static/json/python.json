@@ -221,10 +221,10 @@
     "Question": "다음 중 맞는 설명을 고르세요.",
     "Code": "",
     "Answers": [
-	"table의 각 column에 인덱스를 많이 걸면 걸수록 좋다."
+	    "table의 각 column에 인덱스를 많이 걸면 걸수록 좋다.",
         "1:N 관계를 가지고 있는 users, languages 테이블이 있을 때, ORM을 사용하여 user가 사용하는 모든 languages를 찾으려고 한다. N+1 번의 query가 최선이다.",
         "live로 서비스 중인 DB에서 테이블의 row의 수가 10M 이상인 테이블을 삭제하려고 할 때, 다른 테이블에서 해당 테이블에 대한 foreign key constraints가 존재한다. 삭제시에 CASCADE 옵션을 사용하면 안전하다.",
-        "consistent hashing으로 구현된 key-value data store의 N개의 node 중 한 개가 down 되었을 때, 1/N개의 item만 rebalancing 된다.",
+        "consistent hashing으로 구현된 key-value data store의 N개의 node 중 한 개가 down 되었을 때, 1/N개의 item만 rebalancing 된다."
 		],
     "Reference": "zzerjae's brain"
 	},
@@ -235,7 +235,7 @@
     "Question": "다음 중 맞는 설명을 고르세요.",
     "Code": "",
     "Answers": [
-	"퍼블릭 클라우드를 사용할 때, 인프라 리소스는 가능한 적은 수의 가용 영역에 배포하는 것이 안전하다."
+	    "퍼블릭 클라우드를 사용할 때, 인프라 리소스는 가능한 적은 수의 가용 영역에 배포하는 것이 안전하다.",
         "load balancer, VPN, bastion host 중에서, 서비스에 대한 요청이 증가할 때 도입하는 것은 VPN이다.",
         "퍼블릭 클라우드는 기본적으로 사용한 단위시간 만큼 요금을 지불하기 때문에 초기 도입 비용이 적거나 없다.",
         "하나의 서버 인스턴스에 api server, database, storage를 구성하는 것이 분산하는 것보다 안전하다."
@@ -249,9 +249,9 @@
     "Question": "다음 중 가장 성능이 좋은 message 전달 전략은 무엇일까요?",
     "Code": "",
     "Answers": [
-				"적어도 한번 (at least once)"
+        "적어도 한번 (at least once)",
         "최대 한번 (at most once)",
-        "정확히 한번 (exactly once)",
+        "정확히 한번 (exactly once)"
 		],
     "Reference": "zzerjae's brain"
 	},
@@ -262,10 +262,10 @@
     "Question": "다음 중 적절한 설명을 고르세요.",
     "Code": "",
     "Answers": [
-				"terraform과 같은 Infrastructure as a code 툴은 API 자동화를 통해 명령형으로 인프라를 관리하는 것이 목적이다."
+        "terraform과 같은 Infrastructure as a code 툴은 API 자동화를 통해 명령형으로 인프라를 관리하는 것이 목적이다.",
         "ruby나 python과 같은 script 언어로 서버 프로그램을 개발하는 것이 Go와 같이 compile 언어를 사용했을 때보다 컨테이너를 사용한 배포 환경에 유리하다.",
-	      "docker를 사용한 개발이 각광받게 된 이유는 서버에 새로운 코드를 배포하거나, 문제가 있는 서버를 내려야 할 때 손 쉽게 기존의 컨테이너는 버리고 새로운 컨테이너를 배포할 수 있기 때문이다.",
-        "canary 배포 전략은 A/B 두 세트의 인프라를 준비하고, A에서 실제 서비스를 하다가 새로운 배포 시에 B 서버를 준비하여 B에서 서비스를 하는 것이다.",
+        "docker를 사용한 개발이 각광받게 된 이유는 서버에 새로운 코드를 배포하거나, 문제가 있는 서버를 내려야 할 때 손 쉽게 기존의 컨테이너는 버리고 새로운 컨테이너를 배포할 수 있기 때문이다.",
+        "canary 배포 전략은 A/B 두 세트의 인프라를 준비하고, A에서 실제 서비스를 하다가 새로운 배포 시에 B 서버를 준비하여 B에서 서비스를 하는 것이다."
 		],
     "Reference": "zzerjae's brain"
 	}
