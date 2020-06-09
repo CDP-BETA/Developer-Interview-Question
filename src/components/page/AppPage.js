@@ -22,7 +22,7 @@ const Wrapper = styled.div`
     @media (min-width: 1000px) {
         height: 100vh;
         width: 100vh;
-        background: url(${backgroundImagePath}) no-repeat center center; 
+        background: url(${backgroundImagePath}) no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -32,11 +32,11 @@ const Wrapper = styled.div`
     @media (max-width: 1000px) {
         height: 100%;
         width: 100%;
-        background: url(${backgroundImagePath}) no-repeat center center; 
+        background: url(${backgroundImagePath}) no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;     
+        background-size: cover;
     }
 
 `;
@@ -83,15 +83,14 @@ class AppPage extends React.Component {
                 {this.state.clicked ? <Spinner/>: ""}
 
                 <TextWrapper>
-                    <LogoImg/>
+                    {/*<LogoImg/>*/}
 
                     <GradationText fontSize={'3rem'}
                                    fontStyle={'italic'}
                                    fontWeight={'bold'}
                                    marginTop={'0dp'}>
-                        {'PYTHON'}<br/>
-                        {'LEVEL'}<br/>
-                        {'CHALLENGE'}
+                        {'DEV-IQ'}<br/>
+                        {'(DEVeloper-Interview-Question)'}
                     </GradationText>
                 </TextWrapper>
 
