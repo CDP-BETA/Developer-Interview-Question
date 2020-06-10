@@ -13,8 +13,6 @@ import Context from '../context/Context';
 
 const lz = require('lz-string');
 
-const redditURL = 'https://www.reddit.com/r/PythonLevelChallenge';
-
 const Image = styled.img`
     margin-top: 32px;
     @media (min-width: 1000px) {
@@ -38,7 +36,7 @@ const Wrapper = styled.div`
 
     animation: fadein 2s;
     -moz-animation: fadein 2s;
-    -webkit-animation: fadein 2s; 
+    -webkit-animation: fadein 2s;
     -o-animation: fadein 2s;
 
     @keyframes fadein {
@@ -49,7 +47,7 @@ const Wrapper = styled.div`
             opacity:1;
         }
     }
-    @-moz-keyframes fadein { 
+    @-moz-keyframes fadein {
         from {
             opacity:0;
         }
@@ -57,7 +55,7 @@ const Wrapper = styled.div`
             opacity:1;
         }
     }
-    @-webkit-keyframes fadein { 
+    @-webkit-keyframes fadein {
         from {
             opacity:0;
         }
@@ -65,7 +63,7 @@ const Wrapper = styled.div`
             opacity:1;
         }
     }
-    @-o-keyframes fadein { 
+    @-o-keyframes fadein {
         from {
             opacity:0;
         }
@@ -190,10 +188,6 @@ class ResultPage extends React.Component {
                 <GradationButton
                     onClick={() => window.location.href='/'}
                     text={'Start a new quiz'} />
-
-                <GradationButton
-                    onClick={() => window.open(redditURL, "_blank")}
-                    text={'Discuss the quiz with others'} />
 
                 <Answers answerSheet={answers} />
 
