@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { FaRegTimesCircle, FaRegCheckCircle } from 'react-icons/fa';
-import questionsList from '../../static/json/python.json';
-import answerList from '../../static/json/python_answer.json';
+import questionsList from 'src/static/json/questions.json';
+import answerList from 'src/static/json/answers.json';
 import Context from '../context/Context';
 
-const Grid = styled.div`  
+const Grid = styled.div`
     display: grid;
     width: 100%;
     background: #191919;
