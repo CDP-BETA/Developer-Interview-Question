@@ -5,7 +5,7 @@ import GradationText from '../ui/text/GradationText';
 import Spinner from '../ui/Spinner';
 
 const backgroundImagePath = '../../static/img/intro/background.jpeg';
-const pythonImagePath = '../../static/img/intro/python_logo.png';
+const developerImagePath = '../../static/img/intro/developer.png';
 
 const TextWrapper = styled.div`
     width: 100%;
@@ -49,7 +49,7 @@ const LogoImg = styled.img.attrs({
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 28px;
-    alt: "Python logo";
+    alt: "Developer logo";
 `;
 
 const Background = styled.img`
