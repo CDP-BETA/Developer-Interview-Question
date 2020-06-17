@@ -48,7 +48,7 @@ app.get('/', function (req, res) {
   res.render('index', { 'APP_BUNDLE_URL': appBundleUrl }, (err, html) => {
     html = html.replace(/\$OG_TITLE/g, 'Developer Interview Question');
     html = html.replace(/\$OG_DESCRIPTION/g, `Let's take a look developer quiz and show off your score.`);
-    html = html.replace(/\$OG_IMAGE/g, `${fullURL}/static/img/intro/og_image_dimensions.png`);
+    html = html.replace(/\$OG_IMAGE/g, `${fullURL}/static/img/intro/developer.png`);
 
     res.send(html);
   });
@@ -60,7 +60,7 @@ app.get('/quiz', function (req, res) {
   res.render('index', { 'APP_BUNDLE_URL': appBundleUrl }, (err, html) => {
     html = html.replace(/\$OG_TITLE/g, 'Developer Interview Question');
     html = html.replace(/\$OG_DESCRIPTION/g, `Let's take a look developer quiz and show off your score.`);
-    html = html.replace(/\$OG_IMAGE/g, `${fullURL}/static/img/intro/og_image_dimensions.png`);
+    html = html.replace(/\$OG_IMAGE/g, `${fullURL}/static/img/intro/developer.png`);
 
     res.send(html);
   });
