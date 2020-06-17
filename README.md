@@ -55,7 +55,7 @@ Ensure your pull request adheres to the following guidelines.
 ### Quiz pool contribution guide
 - Sync answers with questions
 - Questions and answers are managed in JSON format. See the examples below:
-  - Question ([/src/static/json/python.json](https://github.com/CDP-BETA/Developer-Interview-Question/blob/master/src/static/json/python.json))
+  - Question ([/src/static/json/questions.json](https://github.com/CDP-BETA/Developer-Interview-Question/blob/master/src/static/json/questions.json))
     ```
     {
         "Id": (Integer, problem number in ascending order)[Required],
@@ -67,7 +67,7 @@ Ensure your pull request adheres to the following guidelines.
         "Reference": (String)[Optional]
     }
     ```
-  - Answer ([/src/static/json/python_answer.json](https://github.com/CDP-BETA/Developer-Interview-Question/blob/master/src/static/json/python_answer.json))
+  - Answer ([/src/static/json/answers.json](https://github.com/CDP-BETA/Developer-Interview-Question/blob/master/src/static/json/answers.json))
     ```
     {
         "Id": (Integer, answer number in ascending order, must sync with question number)

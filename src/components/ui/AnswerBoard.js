@@ -3,8 +3,8 @@ import {withRouter} from 'react-router-dom';
 import styled from 'styled-components';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import {tomorrowNight} from 'react-syntax-highlighter/dist/esm/styles/hljs';
-import questions from '../../static/json/python';
-import answers from '../../static/json/python_answer';
+import questions from 'src/static/json/questions.json';
+import answers from 'src/static/json/answers.json';
 
 const correctWhiteImagePath = '../../static/img/answer/correct_white.svg';
 const correctBlueImagePath = '../../static/img/answer/correct_blue.svg';
