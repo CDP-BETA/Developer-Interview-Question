@@ -42,7 +42,7 @@ const Wrapper = styled.div`
 `;
 
 const LogoImg = styled.img.attrs({
-    src: pythonImagePath
+    src: developerImagePath
 })`
     width: 40px;
     height: 40px;

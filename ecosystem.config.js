@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-        name: 'Python Quiz Flex',
+        name: 'Developer Interview Question Flex',
         script: './app.js',
         instances: 'max',
         autorestart: true,

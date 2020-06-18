@@ -68,7 +68,7 @@ app.get('/quiz', function (req, res) {
 
 app.get('/result', function (req, res) {
   const resultList = require('./src/static/json/result_list.json');
-  const answerList = require('src/static/json/answers.json');
+  const answerList = require('./src/static/json/answers.json');
   const fullURL = req.protocol + '://' + req.get('host');
 
   const answers = decodeAnswer(req.query.query);
