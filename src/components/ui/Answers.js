@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { FaRegTimesCircle, FaRegCheckCircle } from 'react-icons/fa';
-import questionsList from 'src/static/json/questions.json';
-import answerList from 'src/static/json/answers.json';
+import questionsList from '../../static/json/questions.json';
+import answerList from '../../static/json/answers.json';
 import Context from '../context/Context';
 
 const Grid = styled.div`
