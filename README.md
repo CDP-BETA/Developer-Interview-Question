@@ -1,8 +1,7 @@
 # DEV-IQ(DEVeloper Interview Question)
 
 
-Go to Challenge 👉
-여기 이나이즈 버튼 와야함
+[![Run on Ainize](https://ainize.ai/static/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=github.com/CDP-BETA/Developer-Interview-Question)
 
 ## 💯 A simple online python quiz
 - Levels are set based on the quiz score
