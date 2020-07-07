@@ -3,7 +3,7 @@
 
 [![Run on Ainize](https://ainize.ai/static/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=github.com/CDP-BETA/Developer-Interview-Question)
 
-## 💯 A simple online python quiz
+## 💯 A simple online developer interview quiz
 - Levels are set based on the quiz score
 - Solve quiz and check your level (please don't take it too seriously)!
 
