@@ -18,7 +18,6 @@ const Wrapper = styled.div`
 
 const Row = styled.div`
     cursor: pointer;
-    margin-left: 10px;
     font-size: 0.8rem;
     display: table-cell;
     vertical-align: middle;
@@ -27,6 +26,7 @@ const Row = styled.div`
 const Icon = styled.img`
     vertical-align: middle;
     margin-left: 10px;
+    width: 160px;
 `;
 
 class Footer extends React.Component {
@@ -41,9 +41,7 @@ class Footer extends React.Component {
             // TODO (Add icon)
             <Wrapper>
                 <Row onClick={() => window.open(githubURL, '_blank')}>
-                    {'Contribute on'}
-
-                    <Icon style={{paddingBottom: '2px'}} src={'../static/img/footer/github.svg'} />
+                    <Icon style={{paddingBottom: '2px'}} src={'../static/img/footer/git.png'} />
                 </Row>
                 <Row onClick={() => {
                     window.gtag('event', 'poweredby_click', {
@@ -53,9 +51,7 @@ class Footer extends React.Component {
 
                     window.open(ainizeURL, '_blank');
                 }}>
-                    {'Live on'}
-
-                    <Icon style={{paddingBottom: '3px'}} src={'../static/img/footer/ainize.svg'} />
+                    <Icon style={{paddingBottom: '3px'}} src={'../static/img/footer/ainize.png'} />
                 </Row>
             </Wrapper>
         );
